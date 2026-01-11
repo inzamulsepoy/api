@@ -14,14 +14,14 @@ router.post('/submit', createUser);
 // Get all users
 router.get('/all', getUsers);
 
-// Get single user by ID
-router.get('/:id', getUserById);
+// // Get single user by ID
+// router.get('/:id', getUserById);
 
-// Update user by ID
-router.put('/:id', updateUser);
+// // Update user by ID
+// router.put('/:id', updateUser);
 
-// Delete user by ID
-router.delete('/:id', deleteUser);
+// // Delete user by ID
+// router.delete('/:id', deleteUser);
 
 module.exports = router;
 
